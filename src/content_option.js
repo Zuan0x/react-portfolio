@@ -88,7 +88,7 @@ const services = [{
 
 const dataportfolio = [{
         img: cookstoves,
-        description: "Digital MRV using IoT cookstoves",
+        description: "IoT cookstoves",
         link: "/cookstoves",
     },
     {
