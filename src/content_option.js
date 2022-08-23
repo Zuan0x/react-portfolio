@@ -1,144 +1,116 @@
-const logotext = "JOHN";
+import cookstoves from './assets/images/cookstoves.jpg'
+import CreolLogo from './assets/images/LogoCropped.gif'
+import Offsetra from './assets/images/offsetra.png'
+import klima from './assets/images/klima-dao.png'
+
+const logotext = "Zuan";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Zuan",
+    description: "I’m 0xZuan blockchain engineer _ Full stack devloper,currently working on ReFi",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Zuan",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I like Planet A.",
+        second: "Smart contracts are cool",
+        third: "Make it antifragile",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Align incentives, preserve nature, encourage shitposting",
+    your_img_url: "https://images.unsplash.com/photo-1660214356059-0f0039f8c6eb",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a little about myself",
+    aboutme: "Engineer turned fake internet money propagandist. Carbon credits are the worst tool for GHG mitigation/removal, apart from all the others we've tried - lets make them better",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "Full-stack engineer",
+        where: "Creol",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Engineering Lead",
+        where: "Creol",
+        date: "2021-22",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Contributor",
+        where: "KLIMA DAO",
+        date: "2022",
+    },
+    {
+        jobtitle: "Contributor",
+        where: "Carbon.fyi",
+        date: "2022",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
         name: "Javascript",
-        value: 80,
+        value: 95,
     },
     {
         name: "React",
+        value: 85,
+    },
+    {
+        name: "Solidity",
+        value: 80,
+    },
+    {
+        name: "Subgraphs",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Rust",
+        value: 65,
+    },
+    {
+        name: "MEV",
+        value: 45,
     },
 ];
 
 const services = [{
+        title: "Smart Contracts",
+        description: "Range of experience writing smart contracts for Ethereum and various Layer-2's. Particular experience in minting NFTs and fractionalising into ERC-20s.",
+    },
+    {
+        title: "Front-end Engineering",
+        description: "A variety of React-based projects under my belt, including work with KLIMA DAO and Offsetra (Carbon.fyi). Versed in NextJS.",
+    },
+    {
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Strong background in UX design through further education in 'Design Engineering' - The designer in me dreams and the dev in me suffers :)",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: cookstoves,
+        description: "Digital MRV using IoT cookstoves",
+        link: "/cookstoves",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: CreolLogo,
+        description: "Creol",
+        link: "/creol",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: Offsetra,
+        description: "carbon.fyi",
+        link: "/carbon-fyi",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: klima,
+        description: "KLIMA DAO",
+        link: "/klima",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "zuan.0x@gmail.com",
+    description: "Accepting unsolicited praise, shady business proposals and quality memes",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -146,13 +118,9 @@ const contactConfig = {
     YOUR_USER_ID: "user_id",
 };
 
-const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+const socialprofiles = {
+    github: "https://github.com/Zuan0x",
+    twitter: "https://twitter.com/0xZuan",
 };
 export {
     meta,
@@ -163,6 +131,6 @@ export {
     services,
     introdata,
     contactConfig,
-    socialprofils,
+    socialprofiles,
     logotext,
 };
