@@ -5,7 +5,10 @@ import { Home } from "../pages/home";
 import { Portfolio } from "../pages/portfolio";
 import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
-import { cookstoves, creol, klima, carbonFYI } from "../pages/portfolio/projects";
+import { cookstoves } from "../pages/cookstoves";
+import { creol } from "../pages/creol";
+import { klima } from "../pages/klima";
+import { carbonFYI } from "../pages/carbonfyi";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
