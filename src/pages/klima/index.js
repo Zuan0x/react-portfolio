@@ -10,8 +10,8 @@ export const klima = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Creol </title>{" "}
-          <meta name="description" content={"creol"} />
+          <title> KlimaDAO </title>{" "}
+          <meta name="description" content={"KlimaDAO"} />
         </Helmet>
         <ProjectPage
         title="KLIMA DAO"

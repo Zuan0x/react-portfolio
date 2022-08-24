@@ -10,8 +10,8 @@ export const cookstoves = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Creol </title>{" "}
-          <meta name="description" content={"creol"} />
+          <title> Cookstoves </title>{" "}
+          <meta name="description" content={"Cookstoves"} />
         </Helmet>
         <ProjectPage
         title="Cookstove"
