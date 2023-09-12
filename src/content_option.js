@@ -3,18 +3,18 @@ import CreolLogo from './assets/images/LogoCropped.gif'
 import Offsetra from './assets/images/offsetra.png'
 import klima from './assets/images/klima-dao.png'
 
-const logotext = "Zuan";
+const logotext = "Euan";
 const meta = {
-    title: "Zuan",
-    description: "I’m 0xZuan blockchain engineer _ Full stack devloper,currently working on ReFi",
+    title: "Euan",
+    description: "I’m 0xZuan blockchain engineer _ full stack developer",
 };
 
 const introdata = {
     title: "I’m Zuan",
     animated: {
-        first: "I like Planet A.",
-        second: "Smart contracts are cool",
-        third: "Make it antifragile",
+        first: "Why bother if it's not fun",
+        second: "I like Planet A.",
+        third: "Smart contracts are cool",
     },
     description: "Align incentives, preserve nature, encourage shitposting",
     your_img_url: "https://images.unsplash.com/photo-1660214356059-0f0039f8c6eb",
@@ -25,12 +25,12 @@ const dataabout = {
     aboutme: "Engineer turned fake internet money propagandist. Carbon credits are the worst tool for GHG mitigation/removal, apart from all the others we've tried - lets make them better",
 };
 const worktimeline = [{
-        jobtitle: "Full-stack engineer",
+        jobtitle: "Full Stack Engineer",
         where: "Creol",
         date: "2020",
     },
     {
-        jobtitle: "Engineering Lead",
+        jobtitle: "Lead Engineer",
         where: "Creol",
         date: "2021-22",
     },
@@ -41,34 +41,39 @@ const worktimeline = [{
     },
     {
         jobtitle: "Contributor",
-        where: "Carbon.fyi",
+        where: "Offsetra",
         date: "2022",
+    },
+    {
+        jobtitle: "Lead Engineer",
+        where: "Carbon.fyi",
+        date: "2022-23",
     },
 ];
 
 const skills = [{
-        name: "Javascript",
+        name: "JavaScript/TypeScript",
         value: 95,
     },
     {
         name: "React",
+        value: 95,
+    },
+    {
+        name: "Github/Github Actions",
         value: 85,
     },
     {
         name: "Solidity",
-        value: 80,
+        value: 70,
     },
     {
-        name: "Subgraphs",
+        name: "LLMs",
         value: 60,
     },
     {
-        name: "Rust",
-        value: 65,
-    },
-    {
-        name: "MEV",
-        value: 45,
+        name: "Subgraphs",
+        value: 55,
     },
 ];
 
@@ -87,14 +92,23 @@ const services = [{
 ];
 
 const dataportfolio = [{
+    img: cookstoves,
+    description: "Ivy Dashboard",
+    link: "/ivy",
+},{
         img: cookstoves,
-        description: "IoT cookstoves",
+        description: "Cookstoves",
         link: "/cookstoves",
     },
     {
         img: CreolLogo,
         description: "Creol",
         link: "/creol",
+    },
+    {
+        img: cookstoves,
+        description: "Ivy Chatbot",
+        link: "/chatbot",
     },
     {
         img: Offsetra,
