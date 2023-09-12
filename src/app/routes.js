@@ -9,6 +9,8 @@ import { cookstoves } from "../pages/cookstoves";
 import { creol } from "../pages/creol";
 import { klima } from "../pages/klima";
 import { carbonFYI } from "../pages/carbonfyi";
+import { ivy } from "../pages/ivy"
+import { chatbot } from "../pages/chatbot"
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -32,6 +34,8 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/creol" component={creol} />
         <Route path="/klima" component={klima} />
         <Route path="/carbon-fyi" component={carbonFYI} />
+        <Route path="/ivy" component={ivy} />
+        <Route path="/chatbot" component={chatbot} />
         <Route path="*" component={Home} />
       </Switch>
     </CSSTransition>

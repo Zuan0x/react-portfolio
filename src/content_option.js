@@ -10,7 +10,7 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Zuan",
+    title: "I’m Euan",
     animated: {
         first: "Why bother if it's not fun",
         second: "I like Planet A.",

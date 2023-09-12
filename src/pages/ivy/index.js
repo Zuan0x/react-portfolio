@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { ProjectPage } from "../portfolio/projectPage"
 import creolGif from "../../assets/images/LogoCropped.gif"
 
-export const ivyDashboard = () => {
+export const ivy = () => {
     return (
         <HelmetProvider>
       <Container className="About-header">
