@@ -2,6 +2,9 @@ import cookstoves from './assets/images/cookstoves.jpg'
 import CreolLogo from './assets/images/LogoCropped.gif'
 import Offsetra from './assets/images/offsetra.png'
 import klima from './assets/images/klima-dao.png'
+import bitgreen from './assets/images/bitgreen.jpeg'
+import ivy1 from './assets/images/ivy1.webp'
+import ivy2 from './assets/images/ivy2.jpeg'
 
 const logotext = "Euan";
 const meta = {
@@ -46,7 +49,7 @@ const worktimeline = [{
     },
     {
         jobtitle: "Lead Engineer",
-        where: "Carbon.fyi",
+        where: "Ivy Protocol",
         date: "2022-23",
     },
 ];
@@ -60,8 +63,16 @@ const skills = [{
         value: 95,
     },
     {
+        name: "Firebase/GCP",
+        value: 90,
+    },
+    {
         name: "Github/Github Actions",
         value: 85,
+    },
+    {
+        name: "PostgreSQL",
+        value: 70,
     },
     {
         name: "Solidity",
@@ -92,7 +103,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-    img: cookstoves,
+    img: ivy1,
     description: "Ivy Dashboard",
     link: "/ivy",
 },{
@@ -106,7 +117,7 @@ const dataportfolio = [{
         link: "/creol",
     },
     {
-        img: cookstoves,
+        img: ivy2,
         description: "Ivy Chatbot",
         link: "/chatbot",
     },
@@ -119,6 +130,11 @@ const dataportfolio = [{
         img: klima,
         description: "KLIMA DAO",
         link: "/klima",
+    },
+    {
+        img: bitgreen,
+        description: "Bitgreen Dashboard",
+        link: "/bitgreen",
     },
 ];
 
