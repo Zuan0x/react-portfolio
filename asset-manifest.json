@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a78bae37.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.a54fe4c9.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a54fe4c9.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.9d2e601f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9d2e601f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.98ef4a4e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.98ef4a4e.js.map",
     "static/css/2.c4e73993.chunk.css": "/react-portfolio/static/css/2.c4e73993.chunk.css",
@@ -15,8 +15,12 @@
     "static/css/main.a78bae37.chunk.css.map": "/react-portfolio/static/css/main.a78bae37.chunk.css.map",
     "static/js/2.4604b093.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4604b093.chunk.js.LICENSE.txt",
     "static/media/LogoCropped.0c4d7acf.gif": "/react-portfolio/static/media/LogoCropped.0c4d7acf.gif",
+    "static/media/bitgreen-dashboard.de4b1392.png": "/react-portfolio/static/media/bitgreen-dashboard.de4b1392.png",
+    "static/media/carbonFyi.45728b39.jpeg": "/react-portfolio/static/media/carbonFyi.45728b39.jpeg",
+    "static/media/chatGPT.2931dcae.jpeg": "/react-portfolio/static/media/chatGPT.2931dcae.jpeg",
     "static/media/cookstoves.505f23a0.jpg": "/react-portfolio/static/media/cookstoves.505f23a0.jpg",
     "static/media/ivy1.e08439a7.webp": "/react-portfolio/static/media/ivy1.e08439a7.webp",
+    "static/media/ivySplash.32d566cc.png": "/react-portfolio/static/media/ivySplash.32d566cc.png",
     "static/media/klima-dao.8755242d.png": "/react-portfolio/static/media/klima-dao.8755242d.png",
     "static/media/offsetra.5feb9008.png": "/react-portfolio/static/media/offsetra.5feb9008.png"
   },
@@ -25,6 +29,6 @@
     "static/css/2.c4e73993.chunk.css",
     "static/js/2.4604b093.chunk.js",
     "static/css/main.a78bae37.chunk.css",
-    "static/js/main.a54fe4c9.chunk.js"
+    "static/js/main.9d2e601f.chunk.js"
   ]
 }
