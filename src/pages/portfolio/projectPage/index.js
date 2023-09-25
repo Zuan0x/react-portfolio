@@ -14,7 +14,7 @@ export const ProjectPage = (data) => {
           </Helmet>
           <Row className="mb-5 mt-3">
             <Col lg="8">
-              <img src={data.image} alt="Project image"/>
+              <img src={data.image} alt="Project image" style={{maxHeight: "600px"}}/>
             </Col>
           </Row>
           <Row>
