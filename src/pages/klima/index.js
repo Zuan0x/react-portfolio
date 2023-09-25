@@ -15,7 +15,7 @@ export const klima = () => {
         </Helmet>
         <ProjectPage
         title="KLIMA DAO"
-        description="Reviving some of the work we developed at Creol, I've been adapting an individual and business carbon footprint calculator, designed to help individuals engage and understand the impact of personal choices. This calculator will be redirected to the KlimaDAO offseting page"
+        description="Integrating work we developed at Creol, we adapted an individual and business carbon footprint calculator for KlimaDAO, designed to help individuals engage and understand the impact of personal choices"
         image={klimaImage}
          />
          </Container>

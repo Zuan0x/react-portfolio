@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { ProjectPage } from "../portfolio/projectPage"
-import offsetraImage from "../../assets/images/offsetra.png"
+import carbonFYIimage from "../../assets/images/carbonFyi.jpeg"
 
 export const carbonFYI = () => {
     return (
@@ -16,7 +16,7 @@ export const carbonFYI = () => {
         <ProjectPage
         title="carbon.fyi"
         description="In partnership with Offsetra, I've recently been helping rework the emissions calculations for the highly popular carbon.fyi app, used to calculate the CO2 emissions for a given address or smart contract"
-        image={offsetraImage}
+        image={carbonFYIimage}
          />
          </Container>
          </HelmetProvider>
