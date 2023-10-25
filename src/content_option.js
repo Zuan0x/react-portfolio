@@ -82,23 +82,19 @@ const skills = [{
         name: "LLMs",
         value: 60,
     },
-    {
-        name: "Subgraphs",
-        value: 55,
-    },
 ];
 
 const services = [{
-        title: "Smart Contracts",
-        description: "Range of experience writing smart contracts for Ethereum and various Layer-2's. Particular experience in minting NFTs and fractionalising into ERC-20s.",
-    },
-    {
-        title: "Front-end Engineering",
-        description: "A variety of React-based projects under my belt, including work with KLIMA DAO and Offsetra (Carbon.fyi). Versed in NextJS.",
+    title: "Full-stack Development",
+    description: "Experienced taking ideas from concept to production, including design, development, testing, deployment and maintenance",
+},
+{
+        title: "API Development",
+        description: "Experience with REST and GraphQL APIs, including work with Apollo, Next.js, Redis, Firebase and more!",
     },
     {
         title: "UI & UX Design",
-        description: "Strong background in UX design through further education in 'Design Engineering' - The designer in me dreams and the dev in me suffers :)",
+        description: "Strong background in UX design through further education in Design Engineering - The designer in me dreams and the dev in me suffers :)",
     },
 ];
 
