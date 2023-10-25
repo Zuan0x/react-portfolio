@@ -6,6 +6,12 @@ import bitgreen from './assets/images/bitgreen.jpeg'
 import ivy1 from './assets/images/ivy1.webp'
 import ivy2 from './assets/images/ivy2.jpeg'
 import bitgreenDashboard from "./assets/images/bitgreen-dashboard.png"
+import carbonFYIimage from "./assets/images/carbonFyi.jpeg"
+import chatGPT from "./assets/images/chatGPT.jpeg"
+import cookstoveImage from "./assets/images/cookstoves.jpg"
+import creolGif from "./assets/images/LogoCropped.gif"
+import ivySplash from "./assets/images/ivySplash.png"
+import klimaImage from "./assets/images/klima-dao.png"
 
 
 const logotext = "Euan";
@@ -122,8 +128,8 @@ const projects = [{
     },
     {
         src: ivy2,
-        caption: "Ivy Chatbot",
-        link: "/chatbot",
+        caption: "Ivy Co-Pilot",
+        link: "/co-pilot",
         width: 320,
     height: 320,
     },
@@ -155,6 +161,36 @@ const projectData = {
         title: "Bitgreen",
         description: "I was hired by Offsetra to produce an overview dashboard of the energy usage and carbon emissions of the Polkadot blockchain network for Bitgreen. The final dashboard gave users a breakdown of the parachains, subnetworks and the network as a whole.",
         image: bitgreenDashboard
+    },
+    carbonFYI: {
+        title: "Carbon.fyi",
+        description: "In partnership with Offsetra, I've recently been helping rework the emissions calculations for the highly popular carbon.fyi app, used to calculate the CO2 emissions for a given address or smart contract",
+        image: carbonFYIimage
+    },
+    copilot: {
+        title: "Ivy Co-Pilot",
+        description: "Recently, Ivy have been developing a custom-built LLM to answer guide project developers and investors through the confusing world of carbon projects",
+        image: chatGPT
+    },
+    cookstoves: {
+        title: "Creol Cookstoves",
+        description: "In partnership with two cookstove producers in Africa, Creol has been developing a methodology to use the data collected by the stoves for digital MRV, which in turn allowed for the creation of blockchain-native carbon credits. I was the engineering lead for this project, developing a front-end interface, smart contracts and verifiable proofs using Cartesi.",
+        image: cookstoveImage
+    },
+    creol: {
+        title: "Creol",
+        description: "Starting early 2020, Creol was one of the first developers of tokenised carbon and an underlying subscription service designed to give the public access to the Voluntary Carbon Market (VCM). Over the course of 2020-21 I worked at Creol developing smart contracts for tokenised carbon and an easy-to-use interface",
+        image: creolGif
+    },
+    ivy: {
+        title: "Ivy Dashboard",
+        description: "Since late 2022 I've been working as Lead Engineer at Ivy Protocol, developing tools to reduce the roadblocks for early stage project developers. This culminated in the Ivy Dashboard - a one stop shop for project developers and stakeholders to message, share data, coordinate and much much more",
+        image: ivySplash
+    },
+    klima: {
+        title: "KlimaDAO",
+        description: "Integrating work we developed at Creol, we adapted an individual and business carbon footprint calculator for KlimaDAO, designed to help individuals engage and understand the impact of personal choices",
+        image: klimaImage
     }
 }
 

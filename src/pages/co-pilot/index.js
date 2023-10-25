@@ -4,19 +4,19 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { ProjectPage } from "../portfolio/projectPage"
 import { projectData } from "../../content_option";
 
-export const ivy = () => {
+export const copilot = () => {
   return (
     <HelmetProvider>
     <Container className="About-header">
       <Helmet>
         <meta charSet="utf-8" />
-        <title> {projectData.ivy.title} </title>{" "}
-        <meta name="description" content={projectData.ivy.title} />
+        <title> {projectData.copilot.title} </title>{" "}
+        <meta name="description" content={projectData.copilot.title} />
       </Helmet>
       <ProjectPage
-      title={projectData.ivy.title}
-      description={projectData.ivy.description}
-      image={projectData.ivy.image}
+      title={projectData.copilot.title}
+      description={projectData.copilot.description}
+      image={projectData.copilot.image}
        />
        </Container>
        </HelmetProvider>
