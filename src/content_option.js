@@ -98,41 +98,91 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-    img: ivy1,
-    description: "Ivy Dashboard",
+const projects = [{
+    src: ivy1,
+    caption: "Ivy Dashboard",
     link: "/ivy",
+    width: 320,
+    height: 320,
 },{
-        img: cookstoves,
-        description: "Cookstoves",
+        src: cookstoves,
+        caption: "Cookstoves",
         link: "/cookstoves",
+        width: 400,
+    height: 240,
     },
     {
-        img: CreolLogo,
-        description: "Creol",
+        src: CreolLogo,
+        caption: "Creol",
         link: "/creol",
+        width: 320,
+    height: 240,
     },
     {
-        img: ivy2,
-        description: "Ivy Chatbot",
+        src: ivy2,
+        caption: "Ivy Chatbot",
         link: "/chatbot",
+        width: 320,
+    height: 320,
     },
     {
-        img: Offsetra,
-        description: "carbon.fyi",
+        src: Offsetra,
+        caption: "carbon.fyi",
         link: "/carbon-fyi",
+        width: 240,
+    height: 240,
     },
     {
-        img: klima,
-        description: "KLIMA DAO",
+        src: klima,
+        caption: "KLIMA DAO",
         link: "/klima",
+        width: 320,
+    height: 320,
     },
     {
-        img: bitgreen,
-        description: "Bitgreen Dashboard",
+        src: bitgreen,
+        caption: "Bitgreen Dashboard",
         link: "/bitgreen",
+        width: 240,
+    height: 240,
     },
 ];
+
+// const dataportfolio = [{
+//     img: ivy1,
+//     description: "Ivy Dashboard",
+//     link: "/ivy",
+// },{
+//         img: cookstoves,
+//         description: "Cookstoves",
+//         link: "/cookstoves",
+//     },
+//     {
+//         img: CreolLogo,
+//         description: "Creol",
+//         link: "/creol",
+//     },
+//     {
+//         img: ivy2,
+//         description: "Ivy Chatbot",
+//         link: "/chatbot",
+//     },
+//     {
+//         img: Offsetra,
+//         description: "carbon.fyi",
+//         link: "/carbon-fyi",
+//     },
+//     {
+//         img: klima,
+//         description: "KLIMA DAO",
+//         link: "/klima",
+//     },
+//     {
+//         img: bitgreen,
+//         description: "Bitgreen Dashboard",
+//         link: "/bitgreen",
+//     },
+// ];
 
 const contactConfig = {
     YOUR_EMAIL: "zuan.0x@gmail.com",
@@ -151,7 +201,7 @@ const socialprofiles = {
 export {
     meta,
     dataabout,
-    dataportfolio,
+    projects,
     worktimeline,
     skills,
     services,
