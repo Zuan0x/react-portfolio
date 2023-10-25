@@ -51,7 +51,7 @@ export const Portfolio = () => {
         <Gallery 
         images={projects} 
         enableImageSelection={false}
-        onClick={(e)=>{history.push(projects[e].link)}}//console.log(projects[e].link)}}
+        onClick={(e)=>{history.push(projects[e].link)}}
         margin={8}
         rowHeight={280}
         />
