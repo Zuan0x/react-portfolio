@@ -5,6 +5,8 @@ import klima from './assets/images/klima-dao.png'
 import bitgreen from './assets/images/bitgreen.jpeg'
 import ivy1 from './assets/images/ivy1.webp'
 import ivy2 from './assets/images/ivy2.jpeg'
+import bitgreenDashboard from "./assets/images/bitgreen-dashboard.png"
+
 
 const logotext = "Euan";
 const meta = {
@@ -148,41 +150,13 @@ const projects = [{
     },
 ];
 
-// const dataportfolio = [{
-//     img: ivy1,
-//     description: "Ivy Dashboard",
-//     link: "/ivy",
-// },{
-//         img: cookstoves,
-//         description: "Cookstoves",
-//         link: "/cookstoves",
-//     },
-//     {
-//         img: CreolLogo,
-//         description: "Creol",
-//         link: "/creol",
-//     },
-//     {
-//         img: ivy2,
-//         description: "Ivy Chatbot",
-//         link: "/chatbot",
-//     },
-//     {
-//         img: Offsetra,
-//         description: "carbon.fyi",
-//         link: "/carbon-fyi",
-//     },
-//     {
-//         img: klima,
-//         description: "KLIMA DAO",
-//         link: "/klima",
-//     },
-//     {
-//         img: bitgreen,
-//         description: "Bitgreen Dashboard",
-//         link: "/bitgreen",
-//     },
-// ];
+const projectData = {
+    bitgreen: {
+        title: "Bitgreen",
+        description: "I was hired by Offsetra to produce an overview dashboard of the energy usage and carbon emissions of the Polkadot blockchain network for Bitgreen. The final dashboard gave users a breakdown of the parachains, subnetworks and the network as a whole.",
+        image: bitgreenDashboard
+    }
+}
 
 const contactConfig = {
     YOUR_EMAIL: "zuan.0x@gmail.com",
@@ -202,6 +176,7 @@ export {
     meta,
     dataabout,
     projects,
+    projectData,
     worktimeline,
     skills,
     services,
