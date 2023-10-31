@@ -7,7 +7,7 @@ const ProjectCard = ({data, next}) => {
   const history = useHistory();
   return (
     <div style={{ cursor: 'pointer' }} className="project_card" onClick={()=>{history.push(`${next}`)}}>
-        <Row fluid={true} style={{disply:'flex', justifyContent:'center', alignItems: "center"}}>
+        <Row style={{disply:'flex', justifyContent:'center', alignItems: "center"}}>
           <Col>
         <img src={data.icon? data.icon : data.image? data.image : null} alt="Project image" style={{maxWidth: "100px"}}/>
         </Col>

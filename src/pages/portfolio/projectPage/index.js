@@ -7,6 +7,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom";
 import ProjectCard from "../../../components/projectcard";
 import { Gallery } from "react-grid-gallery";
 import { projectData } from "../../../content_option";
+import GalleryLightbox from "../../../components/gallerylightbox";
 
 export const ProjectPage = ({data, images}) => {
   const nextData = projectData[data.next];
@@ -45,9 +46,9 @@ export const ProjectPage = ({data, images}) => {
             data.skillChips && (
               <Row>
                 {
-                  data.skillChips.map((chip)=>{
+                  data.skillChips.map((chip, i)=>{
                     return (
-                      <span className="skill-chip">{chip}</span>
+                      <span key={i} className="skill-chip">{chip}</span>
                     )
                   
                   })
@@ -71,7 +72,7 @@ export const ProjectPage = ({data, images}) => {
           }
           {
             images && (
-              <Gallery images={images} />
+              <GalleryLightbox images={images} />
             )
           }
           <ProjectCard data={nextData} next={data.next}/>
