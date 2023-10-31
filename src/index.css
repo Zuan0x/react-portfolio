@@ -115,3 +115,10 @@ code {
     white-space:nowrap;
     text-overflow:ellipsis;
 }
+
+.custom-overlay__caption {
+    background-color: rgb(12 12 12 / 60%);
+    height: 100%;
+    width: 100%;
+    transition: 1s ease;
+}

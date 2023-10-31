@@ -112,6 +112,10 @@ const projects = [{
     link: "/ivy",
     width: 320,
     height: 320,
+    chips: [
+        { value: "Nature", title: "Nature" },
+        { value: "Flora", title: "Flora" },
+      ],
 },{
         src: cookstoves,
         caption: "Cookstoves",

@@ -7,30 +7,25 @@ import { dataportfolio, meta, projects } from "../../content_option";
 import { Gallery } from "react-grid-gallery";
 import { useHistory } from "react-router-dom"
 
-const images = [
-  {
-     src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-     width: 320,
-     height: 174,
-     isSelected: true,
-     caption: "After Rain (Jeshu John - designerspics.com)",
-  },
-  {
-     src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-     width: 320,
-     height: 212,
-     tags: [
-        { value: "Ocean", title: "Ocean" },
-        { value: "People", title: "People" },
-     ],
-     alt: "Boats (Jeshu John - designerspics.com)",
-  },
-  {
-     src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-     width: 320,
-     height: 212,
-  },
-];
+//Position caption centrally
+const images = projects.map((image) => ({
+  ...image,
+  customOverlay: (
+    <div className="custom-overlay__caption">
+      
+      <div style={{ width: "100%", height: "100%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center"}}>
+        <h3>{image.caption.toUpperCase()}</h3>
+        {/* {image.chips &&
+        image.chips.map((t, index) => (
+          <div key={index} className="custom-overlay__tag">
+            {t.title}
+          </div>
+        ))} */}
+      </div>
+      
+    </div>
+  ),
+}));
 
 export const Portfolio = () => {
   const history = useHistory()
@@ -49,7 +44,7 @@ export const Portfolio = () => {
           </Col>
         </Row>
         <Gallery 
-        images={projects} 
+        images={images} 
         enableImageSelection={false}
         onClick={(e)=>{history.push(projects[e].link)}}
         margin={8}
