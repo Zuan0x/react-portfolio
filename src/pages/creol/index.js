@@ -14,9 +14,7 @@ export const creol = () => {
         <meta name="description" content={projectData.creol.title} />
       </Helmet>
       <ProjectPage
-      title={projectData.creol.title}
-      description={projectData.creol.description}
-      image={projectData.creol.image}
+            data={projectData.creol}
        />
        </Container>
        </HelmetProvider>

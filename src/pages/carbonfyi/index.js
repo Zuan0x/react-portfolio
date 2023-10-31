@@ -10,13 +10,11 @@ export const carbonFYI = () => {
     <Container className="About-header">
       <Helmet>
         <meta charSet="utf-8" />
-        <title> {projectData.carbonFYI.title} </title>{" "}
-        <meta name="description" content={projectData.carbonFYI.title} />
+        <title> {projectData['carbon-fyi'].title} </title>{" "}
+        <meta name="description" content={projectData['carbon-fyi'].title} />
       </Helmet>
       <ProjectPage
-      title={projectData.carbonFYI.title}
-      description={projectData.carbonFYI.description}
-      image={projectData.carbonFYI.image}
+            data={projectData['carbon-fyi']}
        />
        </Container>
        </HelmetProvider>

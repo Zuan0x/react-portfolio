@@ -93,3 +93,25 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+.project_card {
+    cursor: pointer;
+    padding: 12px 16px;
+    margin: 20px 0px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.project_card:hover {
+    border: 1px solid lightblue;
+}
+
+.project_card:active {
+    border: 1px solid lightskyblue;
+}
+
+.overflow_text {
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}

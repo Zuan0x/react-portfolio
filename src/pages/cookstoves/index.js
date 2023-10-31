@@ -14,9 +14,7 @@ export const cookstoves = () => {
         <meta name="description" content={projectData.cookstoves.title} />
       </Helmet>
       <ProjectPage
-      title={projectData.cookstoves.title}
-      description={projectData.cookstoves.description}
-      image={projectData.cookstoves.image}
+            data={projectData.cookstoves}
        />
        </Container>
        </HelmetProvider>

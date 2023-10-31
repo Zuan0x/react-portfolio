@@ -4,9 +4,13 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiOutlineArrowLeft } from "react-icons/ai"
 import { Link } from "react-router-dom/cjs/react-router-dom";
+import ProjectCard from "../../../components/projectcard";
+import { Gallery } from "react-grid-gallery";
+import { projectData } from "../../../content_option";
 
-export const ProjectPage = (data) => {
-    return (
+export const ProjectPage = ({data, images}) => {
+  const nextData = projectData[data.next];
+  return (
       <HelmetProvider>
         <Container className="About-header">
           <Helmet>
@@ -23,11 +27,55 @@ export const ProjectPage = (data) => {
             </Col>
           </Row>
           <Row>
+            <h2>{data.title}</h2>
+          </Row>
+          <Row>
             <p>
               {data.description}
             </p>
+            {
+              data.link && (
+                  <p>
+                    A link to the project can be found <a href={data.link}>here</a>
+                  </p>
+              )
+            }
           </Row>
-          <div>next proj</div>
+          {
+            data.skillChips && (
+              <Row>
+                {
+                  data.skillChips.map((chip)=>{
+                    return (
+                      <span className="skill-chip">{chip}</span>
+                    )
+                  
+                  })
+                }
+              </Row>
+            )
+          }
+          {
+            data.technicalDetails && (
+              <div>
+                <Row>
+            <h2>Technical details</h2>
+          </Row>
+          <Row>
+            <p>
+              {data.technicalDetails}
+            </p>
+          </Row>
+              </div>
+            )
+          }
+          {
+            images && (
+              <Gallery images={images} />
+            )
+          }
+          <ProjectCard data={nextData} next={data.next}/>
+          <div style={{color: 'black'}}>-</div>
         </Container>
       </HelmetProvider>
     )

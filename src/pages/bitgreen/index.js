@@ -14,9 +14,7 @@ export const bitgreen = () => {
           <meta name="description" content={projectData.bitgreen.title} />
         </Helmet>
         <ProjectPage
-        title={projectData.bitgreen.title}
-        description={projectData.bitgreen.description}
-        image={projectData.bitgreen.image}
+        data={projectData.bitgreen}
          />
          </Container>
          </HelmetProvider>

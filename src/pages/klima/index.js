@@ -14,9 +14,7 @@ export const klima = () => {
         <meta name="description" content={projectData.klima.title} />
       </Helmet>
       <ProjectPage
-      title={projectData.klima.title}
-      description={projectData.klima.description}
-      image={projectData.klima.image}
+            data={projectData.klima}
        />
        </Container>
        </HelmetProvider>
