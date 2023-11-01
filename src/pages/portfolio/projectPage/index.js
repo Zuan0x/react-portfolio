@@ -45,11 +45,11 @@ export const ProjectPage = ({data, images, videoUrl}) => {
           </Row>
           {
             data.skillChips && (
-              <Row>
+              <Row style={{marginBottom: "40px"}}>
                 {
                   data.skillChips.map((chip, i)=>{
                     return (
-                      <span key={i} className="skill-chip">{chip}</span>
+                      <span key={i} className="skill-chip" style={{backgroundColor: `rgba(20,${20 + (20*(i+1))},20`}}>{chip}</span>
                     )
                   
                   })

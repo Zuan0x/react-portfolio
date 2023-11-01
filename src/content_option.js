@@ -112,10 +112,10 @@ const projects = [{
     link: "/ivy",
     width: 320,
     height: 320,
-    chips: [
-        { value: "Nature", title: "Nature" },
-        { value: "Flora", title: "Flora" },
-      ],
+    // chips: [
+    //     { value: "Nature", title: "Nature" },
+    //     { value: "Flora", title: "Flora" },
+    //   ],
 },{
         src: cookstoves,
         caption: "Cookstoves",
@@ -166,14 +166,16 @@ const projectData = {
         description: "I was hired by Offsetra to produce an overview dashboard of the energy usage and carbon emissions of the Polkadot blockchain network for Bitgreen. The final dashboard gave users a breakdown of the parachains, subnetworks and the network as a whole.",
         image: bitgreenDashboard,
         icon: bitgreen,
-        next: "ivy"
+        next: "ivy",
+        skillChips: ["JavaScript", "React", "Blockchain", "Polkadot.js", "Github Actions"],
     },
     'carbon-fyi': {
         title: "Carbon.fyi",
         description: "In partnership with Offsetra, I helped rework the emissions calculations for the highly popular carbon.fyi app, used to calculate the CO2 emissions for a given address or smart contract",
         image: carbonFYIimage,
         icon: Offsetra,
-        next: "bitgreen"
+        next: "bitgreen",
+        skillChips: ["TypeScript", "React", "Next.js", "Jest"],
     },
     'co-pilot': {
         title: "Ivy Co-Pilot",
@@ -181,19 +183,22 @@ const projectData = {
         image: chatGPT,
         icon: ivy2,
         link: "http://ai.ivyprotocol.com",
-        next: "creol"
+        next: "creol",
+        skillChips: ["TypeScript", "React", "OpenAi", "Langchain"],
     },
     cookstoves: {
         title: "Creol Cookstoves",
         description: "In partnership with two cookstove producers in Africa, Creol has been developing a methodology to use the data collected by the stoves for digital MRV, which in turn allowed for the creation of blockchain-native carbon credits. I was the engineering lead for this project, developing a front-end interface, smart contracts and verifiable proofs using Cartesi.",
         image: cookstoveImage,
-        next: "klima"
+        next: "klima",
+        skillChips: ["Blockchain", "Solidity", "Cartesi", "React", "Express.js"],
     },
     creol: {
         title: "Creol",
         description: "Starting early 2020, Creol was one of the first developers of tokenised carbon and an underlying subscription service designed to give the public access to the Voluntary Carbon Market (VCM). Over the course of 2020-21 I worked at Creol developing smart contracts for tokenised carbon and an easy-to-use interface",
         image: creolGif,
-        next: "cookstoves"
+        next: "cookstoves",
+        skillChips: ["JavaScript", "Blockchain", "Solidity", "React"],
     },
     ivy: {
         title: "Ivy Dashboard",
@@ -201,7 +206,7 @@ const projectData = {
         image: ivySplash,
         icon: ivy1,
         technicalDetails: "Lorem ipsum",
-        skillChips: ["React", "TypeScript", "Firebase", "GraphQL", "Solidity", "Next.js", "GCP", "Github Actions"],
+        skillChips: ["React", "TypeScript", "Firebase", "Next.js"],
         next: "co-pilot"
     },
     klima: {
@@ -209,6 +214,7 @@ const projectData = {
         description: "Integrating work we developed at Creol, we adapted an individual and business carbon footprint calculator for KlimaDAO, designed to help individuals engage and understand the impact of personal choices",
         image: klimaImage,
         icon: klima,
+        skillChips: ["TypeScript", "React", "Next.js", "Jest"],
         next: "carbon-fyi"
     }
 }

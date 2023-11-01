@@ -117,8 +117,14 @@ code {
 }
 
 .custom-overlay__caption {
-    background-color: rgb(12 12 12 / 60%);
     height: 100%;
     width: 100%;
     transition: 1s ease;
+}
+
+.skill-chip {
+    background-color: darkslategrey;
+    padding: 8px 12px;
+    margin-right: 4px;
+    border-radius: 16px;
 }
