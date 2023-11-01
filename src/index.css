@@ -120,6 +120,7 @@ code {
     height: 100%;
     width: 100%;
     transition: 1s ease;
+    background-color: rgb(12 12 12 / 60%);
 }
 
 .skill-chip {
