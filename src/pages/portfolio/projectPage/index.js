@@ -4,12 +4,13 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiOutlineArrowLeft } from "react-icons/ai"
 import { Link } from "react-router-dom/cjs/react-router-dom";
+import ReactPlayer from 'react-player'
 import ProjectCard from "../../../components/projectcard";
 import { Gallery } from "react-grid-gallery";
 import { projectData } from "../../../content_option";
 import GalleryLightbox from "../../../components/gallerylightbox";
 
-export const ProjectPage = ({data, images}) => {
+export const ProjectPage = ({data, images, videoUrl}) => {
   const nextData = projectData[data.next];
   return (
       <HelmetProvider>
@@ -71,10 +72,19 @@ export const ProjectPage = ({data, images}) => {
             )
           }
           {
+            videoUrl && (
+              <div style={{ justifyContent: "center", width: "100%", display: "flex", marginBottom: "24px"}}>
+                <ReactPlayer url={videoUrl} />
+              </div>
+              
+            )
+          }
+          {
             images && (
               <GalleryLightbox images={images} />
             )
           }
+          
           <ProjectCard data={nextData} next={data.next}/>
           <div style={{color: 'black'}}>-</div>
         </Container>

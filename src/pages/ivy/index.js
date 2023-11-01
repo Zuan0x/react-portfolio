@@ -17,7 +17,6 @@ import screenshot11 from "../../assets/screenshots/dashboard/dashboard-screensho
 import screenshot12 from "../../assets/screenshots/dashboard/dashboard-screenshot-12.png"
 import screenshot13 from "../../assets/screenshots/dashboard/dashboard-screenshot-13.png"
 import screenshot14 from "../../assets/screenshots/dashboard/dashboard-screenshot-14.png"
-import recording1 from "../../assets/screenshots/dashboard/dashboard-recording-1.mov"
 
 const dashboardImages = [
   {
@@ -92,6 +91,8 @@ const dashboardImages = [
   },
 ]
 
+const videoUrl = "https://youtu.be/REfMHFyfnwo"
+
 export const ivy = () => {
   return (
     <HelmetProvider>
@@ -104,6 +105,7 @@ export const ivy = () => {
       <ProjectPage
             data={projectData.ivy}
             images={dashboardImages}
+            videoUrl={videoUrl}
        />
        </Container>
        </HelmetProvider>

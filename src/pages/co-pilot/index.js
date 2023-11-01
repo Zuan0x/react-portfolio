@@ -6,8 +6,6 @@ import { projectData } from "../../content_option";
 import screenshot1 from "../../assets/screenshots/co-pilot/co-pilot-screenshot-1.png"
 import screenshot2 from "../../assets/screenshots/co-pilot/co-pilot-screenshot-2.png"
 import screenshot3 from "../../assets/screenshots/co-pilot/co-pilot-screenshot-3.png"
-import recording1 from "../../assets/screenshots/co-pilot/co-pilot-recording-1.mov"
-
 
 const copilotImages = [
   {
@@ -25,12 +23,9 @@ const copilotImages = [
     height: 320,
     width: 640
   },
-  {
-    src: recording1,
-    height: 320,
-    width: 640
-  },
 ]
+
+const videoUrl = "https://youtu.be/dPBUM2gyf0A"
 
 export const copilot = () => {
   return (
@@ -44,6 +39,7 @@ export const copilot = () => {
       <ProjectPage
       data={projectData['co-pilot']}
       images={copilotImages}
+      videoUrl={videoUrl}
        />
        </Container>
        </HelmetProvider>
