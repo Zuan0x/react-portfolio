@@ -167,6 +167,7 @@ const projectData = {
         image: bitgreenDashboard,
         icon: bitgreen,
         next: "ivy",
+        technicalDetails: "The goal for this dashboard was to utilise the node data provided by the Bitgreen API to calculate and display energy usage and carbon emissions for the Polkadot network. The dashboard was built using React and allowed for blockchain wallet sign-in and authentication using the Polkadot.js library, with the data being stored in a PostgreSQL database. The necessary calculations for the network, subnetworks and indivudal parachains were performed using a Github Actions worklow executed every 24 hours with the results being written directly to the database",
         skillChips: ["JavaScript", "React", "Blockchain", "Polkadot.js", "Github Actions"],
     },
     'carbon-fyi': {
@@ -184,7 +185,8 @@ const projectData = {
         icon: ivy2,
         link: "http://ai.ivyprotocol.com",
         next: "creol",
-        skillChips: ["TypeScript", "React", "OpenAi", "Langchain"],
+        technicalDetails: "The Ivy-Copilot utilised the latest Langchain features including memory, context retrieval and a custom-built LLM agent to answer guide project developers and investors through the confusing world of carbon projects. The LLM retrieval agent has access a dataset of 1000+ PDFs and reports through a vector database stored on Pinecone. The front-end was built using React and Firebase, with the backend being built using Express.js and the Langchain SDK",
+        skillChips: ["TypeScript", "Express.js", "OpenAI", "Langchain", "React", "Firebase"],
     },
     cookstoves: {
         title: "Creol Cookstoves",
@@ -205,8 +207,8 @@ const projectData = {
         description: "Since late 2022 I've been working as Lead Engineer at Ivy Protocol, developing tools to reduce the roadblocks for early stage project developers. This culminated in the Ivy Dashboard - a one stop shop for project developers and stakeholders to message, share data, coordinate and much much more",
         image: ivySplash,
         icon: ivy1,
-        technicalDetails: "Lorem ipsum",
-        skillChips: ["React", "TypeScript", "Firebase", "Next.js"],
+        technicalDetails: "The Ivy Dashboard contained a range of features, including messaging, notifications, data storage, authentication and more. This was achieved by building with React, with the backend being built using Next.js and Firebase. The authentication, sign-in and password recovery was achieved using Firebase Authentication and Cloud Functions. The messaging system made use of websockets, Firebase Cloud Functions, push notifications, Realtime database for conversation storage and Firebase storage for blob storage. The data storage layer was implemented using Cloud functions, realtime database and Firebase storage",
+        skillChips: ["React", "TypeScript", "Firebase", "Next.js", "Websockets"],
         next: "co-pilot"
     },
     klima: {
