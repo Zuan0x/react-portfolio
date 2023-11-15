@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4eda3842.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.b72ffa3d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.b72ffa3d.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.67423acf.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.67423acf.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.7e46b29a.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7e46b29a.js.map",
     "static/css/2.4966125d.chunk.css": "/react-portfolio/static/css/2.4966125d.chunk.css",
@@ -36,6 +36,8 @@
     "static/media/dashboard-screenshot-7.22157f28.png": "/react-portfolio/static/media/dashboard-screenshot-7.22157f28.png",
     "static/media/dashboard-screenshot-8.8dfcd859.png": "/react-portfolio/static/media/dashboard-screenshot-8.8dfcd859.png",
     "static/media/dashboard-screenshot-9.48022a81.png": "/react-portfolio/static/media/dashboard-screenshot-9.48022a81.png",
+    "static/media/hyrox-1.773fac4f.png": "/react-portfolio/static/media/hyrox-1.773fac4f.png",
+    "static/media/hyrox-logo.61da0b50.jpeg": "/react-portfolio/static/media/hyrox-logo.61da0b50.jpeg",
     "static/media/ivy1.e08439a7.webp": "/react-portfolio/static/media/ivy1.e08439a7.webp",
     "static/media/ivySplash.32d566cc.png": "/react-portfolio/static/media/ivySplash.32d566cc.png",
     "static/media/klima-dao.8755242d.png": "/react-portfolio/static/media/klima-dao.8755242d.png",
@@ -46,6 +48,6 @@
     "static/css/2.4966125d.chunk.css",
     "static/js/2.e1d6f1d5.chunk.js",
     "static/css/main.4eda3842.chunk.css",
-    "static/js/main.b72ffa3d.chunk.js"
+    "static/js/main.67423acf.chunk.js"
   ]
 }
