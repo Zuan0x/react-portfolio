@@ -12,6 +12,7 @@ import { carbonFYI } from "../pages/carbonfyi";
 import { ivy } from "../pages/ivy"
 import { copilot } from "../pages/co-pilot"
 import { bitgreen } from "../pages/bitgreen";
+import { hyrox } from "../pages/hyrox";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -38,6 +39,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/ivy" component={ivy} />
         <Route path="/co-pilot" component={copilot} />
         <Route path="/bitgreen" component={bitgreen} />
+        <Route path="/hyrox" component={hyrox} />
         <Route path="*" component={Home} />
       </Switch>
     </CSSTransition>

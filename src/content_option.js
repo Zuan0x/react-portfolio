@@ -12,6 +12,8 @@ import cookstoveImage from "./assets/images/cookstoves.jpg"
 import creolGif from "./assets/images/LogoCropped.gif"
 import ivySplash from "./assets/images/ivySplash.png"
 import klimaImage from "./assets/images/klima-dao.png"
+import hyroxImage from "./assets/images/hyrox-1.png"
+import hyroxLogo from "./assets/images/hyrox-logo.jpeg"
 
 
 const logotext = "Euan";
@@ -158,6 +160,13 @@ const projects = [{
         width: 240,
     height: 240,
     },
+    {
+        src: hyroxLogo,
+        caption: "HYROX Track",
+        link: "/hyrox",
+        width: 380,
+    height: 240,
+    },
 ];
 
 const projectData = {
@@ -184,7 +193,7 @@ const projectData = {
         image: chatGPT,
         icon: ivy2,
         link: "http://ai.ivyprotocol.com",
-        next: "creol",
+        next: "hyrox",
         technicalDetails: "The Ivy-Copilot utilised the latest Langchain features including memory, context retrieval and a custom-built LLM agent to answer guide project developers and investors through the confusing world of carbon projects. The LLM retrieval agent has access a dataset of 1000+ PDFs and reports through a vector database stored on Pinecone. The front-end was built using React and Firebase, with the backend being built using Express.js and the Langchain SDK",
         skillChips: ["TypeScript", "Express.js", "OpenAI", "Langchain", "React", "Firebase"],
     },
@@ -218,6 +227,14 @@ const projectData = {
         icon: klima,
         skillChips: ["TypeScript", "React", "Next.js", "Jest"],
         next: "carbon-fyi"
+    },
+    hyrox: {
+        title: "HYROX Track",
+        description: "A personal project to track my training for the Hyrox fitness competition. The app allows users to track their training, compare their times to other users and view their progress over time. The app was built using HTMX, Express.js and PostgreSQL as an experiment into building with HTMX. My thesis is that businesses do one of two things - they either build a great user experience or they do some funky stuff on the backend and only need a serviceable interface. React and Next.js make a great option for the UX-focused company. I think HTMX fits the bill for the backend-focused company given its minimal JS, small build size and incredible performance",
+        image: hyroxImage,
+        icon: hyroxLogo,
+        skillChips: ["HTMX", "Express.js", "PostgreSQL"],
+        next: "creol"
     }
 }
 

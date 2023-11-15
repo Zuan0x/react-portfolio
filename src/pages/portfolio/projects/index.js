@@ -3,6 +3,7 @@ import cookstoveImage from "../../../assets/images/cookstoves.jpg"
 import creolGif from "../../../assets/images/LogoCropped.gif"
 import klimaImage from "../../../assets/images/klima-dao.png"
 import offsetraImage from "../../../assets/images/offsetra.png"
+import hyroxLogo from "../../../assets/images/hyrox-logo.jpeg"
 
 export const cookstoves = () => {
     return (
@@ -42,6 +43,16 @@ export const carbonFYI = () => {
         title="carbon.fyi"
         description="In partnership with Offsetra, I've recently been helping rework the emissions calculations for the highly popular carbon.fyi app, used to calculate the CO2 emissions for a given address or smart contract"
         image={offsetraImage}
+         />
+    )
+}
+
+export const hyrox = () => {
+    return (
+        <ProjectPage
+        title="HYROX Track"
+        description="In partnership with Offsetra, I've recently been helping rework the emissions calculations for the highly popular carbon.fyi app, used to calculate the CO2 emissions for a given address or smart contract"
+        image={hyroxLogo}
          />
     )
 }
