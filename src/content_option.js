@@ -14,7 +14,8 @@ import ivySplash from "./assets/images/ivySplash.png"
 import klimaImage from "./assets/images/klima-dao.png"
 import hyroxImage from "./assets/images/hyrox-1.png"
 import hyroxLogo from "./assets/images/hyrox-logo.jpeg"
-
+import conwayGif from "./assets/screenshots/conway/game-of-life.gif"
+import conwayImage from "./assets/images/game-of-life.png"
 
 const logotext = "Euan";
 const meta = {
@@ -167,6 +168,13 @@ const projects = [{
         width: 380,
     height: 240,
     },
+    {
+        src: conwayGif,
+        caption: "Game of Life",
+        link: "/conway",
+        width: 380,
+    height: 380,
+    },
 ];
 
 const projectData = {
@@ -234,6 +242,14 @@ const projectData = {
         image: hyroxImage,
         icon: hyroxLogo,
         skillChips: ["HTMX", "Express.js", "PostgreSQL"],
+        next: "conway"
+    },
+    conway: {
+        title: "Game of Life",
+        description: "A quick and fun project to test out Pygame and the amazing patterns that emerge from simple rules. The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.",
+        image: conwayGif,
+        icon: conwayGif,
+        skillChips: ["Python", "Pygame"],
         next: "creol"
     }
 }
