@@ -6,7 +6,6 @@ import { AiOutlineArrowLeft } from "react-icons/ai"
 import { Link } from "react-router-dom/cjs/react-router-dom";
 import ReactPlayer from 'react-player'
 import ProjectCard from "../../../components/projectcard";
-import { Gallery } from "react-grid-gallery";
 import { projectData } from "../../../content_option";
 import GalleryLightbox from "../../../components/gallerylightbox";
 
@@ -82,6 +81,11 @@ export const ProjectPage = ({data, images, videoUrl}) => {
           {
             images && (
               <GalleryLightbox images={images} />
+            )
+          }
+          {
+            data.githubLink && (
+              <a href={data.githubLink}>Link to the Github repo</a>
             )
           }
           

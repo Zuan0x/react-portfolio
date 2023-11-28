@@ -242,7 +242,8 @@ const projectData = {
         image: hyroxImage,
         icon: hyroxLogo,
         skillChips: ["HTMX", "Express.js", "PostgreSQL"],
-        next: "conway"
+        next: "conway",
+        githubLink: "https://github.com/Zuan0x/hyrox-track"
     },
     conway: {
         title: "Game of Life",
@@ -250,7 +251,8 @@ const projectData = {
         image: conwayGif,
         icon: conwayGif,
         skillChips: ["Python", "Pygame"],
-        next: "creol"
+        next: "creol",
+        githubLink: "https://github.com/Zuan0x/game-of-life-python"
     }
 }
 
