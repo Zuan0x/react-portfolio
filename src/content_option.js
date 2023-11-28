@@ -19,7 +19,7 @@ import hyroxLogo from "./assets/images/hyrox-logo.jpeg"
 const logotext = "Euan";
 const meta = {
     title: "Euan",
-    description: "I’m 0xZuan blockchain engineer _ full stack developer",
+    description: "I’m Euan _ full stack developer",
 };
 
 const introdata = {
@@ -29,13 +29,13 @@ const introdata = {
         second: "I like Planet A.",
         third: "Smart contracts are cool",
     },
-    description: "Align incentives, preserve nature, encourage shitposting",
+    description: "Align incentives, preserve nature, encourage innovation.",
     your_img_url: "https://images.unsplash.com/photo-1660214356059-0f0039f8c6eb",
 };
 
 const dataabout = {
     title: "a little about myself",
-    aboutme: "Engineer turned fake internet money propagandist. Carbon credits are the worst tool for GHG mitigation/removal, apart from all the others we've tried - lets make them better",
+    aboutme: "Build cool stuff, have fun doing it. Hi I'm Euan, I am a seasoned Full Stack Developer with over 3 years of experience in the development industry. I have a strong track record of taking projects from whiteboard to production, while also leading my team to success. My expertise includes web development, database design and optimization, software architecture, and mobile development. With my strong background in software engineering, I am able to develop robust, secure, and user-friendly applications.",
 };
 const worktimeline = [{
         jobtitle: "Full Stack Engineer",
@@ -95,7 +95,7 @@ const skills = [{
 ];
 
 const services = [{
-    title: "Full-stack Development",
+    title: "Full Stack Development",
     description: "Experienced taking ideas from concept to production, including design, development, testing, deployment and maintenance",
 },
 {
@@ -230,7 +230,7 @@ const projectData = {
     },
     hyrox: {
         title: "HYROX Track",
-        description: "A personal project to track my training for the Hyrox fitness competition. The app allows users to track their training, compare their times to other users and view their progress over time. The app was built using HTMX, Express.js and PostgreSQL as an experiment into building with HTMX. My thesis is that businesses do one of two things - they either build a great user experience or they do some funky stuff on the backend and only need a serviceable interface. React and Next.js make a great option for the UX-focused company. I think HTMX fits the bill for the backend-focused company given its minimal JS, small build size and incredible performance",
+        description: "A personal project to track my training for the Hyrox fitness competition. The app allows users to track their training, compare their times to other users and view their progress over time. The app was built using HTMX, Express.js and PostgreSQL as an experiment into building with HTMX. My thesis is that businesses do one of two things - they either build a great user experience or they do some funky stuff on the backend and only need a serviceable interface. React and Next.js make a great option for the UX-focused company. I think HTMX fits the bill for the backend-focused company given its minimal JS, small build size and incredible performance.",
         image: hyroxImage,
         icon: hyroxLogo,
         skillChips: ["HTMX", "Express.js", "PostgreSQL"],
